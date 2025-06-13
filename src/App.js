@@ -5,6 +5,7 @@ import Main from "./components/main/Main";
 import Content from "./components/ECommerce/Content";
 import Testimonial from "./components/ECommerce/Testimonial";
 import CTA from "./components/ECommerce/CTA";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,9 @@ function App() {
         <Testimonial />
         <CTA />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
