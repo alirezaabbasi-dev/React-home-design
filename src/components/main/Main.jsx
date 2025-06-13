@@ -1,6 +1,5 @@
 import React from "react";
 import MainBox from "./MainBox";
-
 export default class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -91,7 +90,9 @@ export default class Main extends React.Component {
 
         <div className="text-center text-2 font-bold text-text-primary mt-22 mb-34">
           <h3 className="">
-            <a className="hover:opacity-85 transition-opacity" href="">Check all products</a>
+            <a className="hover:opacity-85 transition-opacity" href="">
+              Check all products
+            </a>
           </h3>
         </div>
       </div>

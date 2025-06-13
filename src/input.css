@@ -11,3 +11,13 @@
 #Header-Content {
   background: center / cover no-repeat url("../public/images/header/Hero.png");
 }
+.ECommerce {
+  @apply rounded-lg mx-3.5 my-4;
+}
+.Testimonial {
+  box-shadow: #97979718 -40px 40px;
+}
+.CTA {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/images/main/ECommerce/3.jpg");
+}
