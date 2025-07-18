@@ -14,7 +14,7 @@ export default function HeaderContent() {
         </h2>
       </div>
 
-      <div className="w-full h-full md:w-1/2 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-3 lg:gap-7 -translate-y-1/4">
+      <div className="md:w-1/2 mx-auto grid grid-cols-2 lg:grid-cols-3 md:gap-3 gap-2 lg:gap-7 justify-center lg:-translate-y-1/4 mt-2">
         <HeaderBox
           name="Living Room"
           items="23"

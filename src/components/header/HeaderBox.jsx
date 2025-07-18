@@ -4,16 +4,16 @@ export default function HeaderBox({ name, items, imgSrc }) {
   return (
     <div className="max-w-88 pt-8 rounded-xl bg-box-color cursor-pointer hover:bg-white transition-all ">
       <a href="##">
-        <div className="ml-11">
-          <h3 className="text-text-primary font-bold text-2xl text-left">
+        <div className="ml-5 md:ml-11">
+          <h3 className="text-text-primary font-bold text-xl md:text-2xl text-left">
             {name}
           </h3>
-          <p className="pb-12">
+          <p className="pb-12 text-sm md:text-xl">
             <span>{items}</span> Items
           </p>
         </div>
-        <div className="size-full px-20 pb-14">
-          <img className="" src={imgSrc} alt="" />
+        <div className="w-full px-10 lg:px-20 pb-7 lg:pb-14">
+          <img className="w-full" src={imgSrc} alt="" />
         </div>
       </a>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonial() {
   return (
-    <section className="ECommerce bg-[#161C2D] text-white">
+    <section className="ECommerce bg-text-primary text-white">
       <div className="container flex items-center justify-between pt-49 pb-59">
         <div>
           <svg
@@ -20,20 +20,20 @@ export default function Testimonial() {
             />
           </svg>
 
-          <div class="flex mt-34 mb-12.5">
-            <svg class="size-5">
+          <div className="flex mt-34 mb-12.5">
+            <svg className="size-5">
               <use href="#star"></use>
             </svg>
-            <svg class="size-5">
+            <svg className="size-5">
               <use href="#star"></use>
             </svg>
-            <svg class="size-5">
+            <svg className="size-5">
               <use href="#star"></use>
             </svg>
-            <svg class="size-5">
+            <svg className="size-5">
               <use href="#star"></use>
             </svg>
-            <svg class="size-5">
+            <svg className="size-5">
               <use href="#star"></use>
             </svg>
           </div>
